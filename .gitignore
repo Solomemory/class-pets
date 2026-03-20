@@ -1,0 +1,18 @@
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+backend/.env
+class-pets-backend.tar.gz
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Local DB
+backend/test.db
+
+# OS
+.DS_Store
+Thumbs.db

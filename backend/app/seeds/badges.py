@@ -1,0 +1,80 @@
+﻿BADGE_SEED: list[dict] = [
+    {
+        'code': 'stage_first_evolution',
+        'name': '初次蜕变',
+        'description': '宠物首次达到进化形态。',
+        'rarity': '稀有',
+    },
+    {
+        'code': 'stage_super_evolution',
+        'name': '超进化觉醒',
+        'description': '宠物首次达到超进化形态。',
+        'rarity': '史诗',
+    },
+    {
+        'code': 'stage_ultimate_evolution',
+        'name': '究极降临',
+        'description': '宠物成功达成究极进化。',
+        'rarity': '传说',
+    },
+    {
+        'code': 'level_10',
+        'name': '十级试炼',
+        'description': '宠物达到 10 级。',
+        'rarity': '稀有',
+    },
+    {
+        'code': 'level_20',
+        'name': '二十级征途',
+        'description': '宠物达到 20 级。',
+        'rarity': '史诗',
+    },
+    {
+        'code': 'level_30',
+        'name': '三十级王冠',
+        'description': '宠物达到 30 级。',
+        'rarity': '传说',
+    },
+    {
+        'code': 'streak_3',
+        'name': '连成长三日',
+        'description': '连续 3 天获得积分。',
+        'rarity': '稀有',
+    },
+    {
+        'code': 'streak_7',
+        'name': '连成长七日',
+        'description': '连续 7 天获得积分。',
+        'rarity': '史诗',
+    },
+    {
+        'code': 'attr_wisdom_120',
+        'name': '睿识铭印',
+        'description': '智慧属性达到 120。',
+        'rarity': '史诗',
+    },
+    {
+        'code': 'attr_focus_120',
+        'name': '凝神铭印',
+        'description': '专注属性达到 120。',
+        'rarity': '史诗',
+    },
+    {
+        'code': 'attr_affinity_120',
+        'name': '共鸣铭印',
+        'description': '亲和属性达到 120。',
+        'rarity': '史诗',
+    },
+    {
+        'code': 'attr_resilience_120',
+        'name': '坚毅铭印',
+        'description': '毅力属性达到 120。',
+        'rarity': '史诗',
+    },
+    {
+        'code': 'attr_vitality_120',
+        'name': '活力铭印',
+        'description': '活力属性达到 120。',
+        'rarity': '史诗',
+    },
+]

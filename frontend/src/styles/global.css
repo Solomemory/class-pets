@@ -1,0 +1,39 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Rajdhani:wght@500;600;700&display=swap');
+
+:root {
+  --cp-bg-primary: #0b111a;
+  --cp-bg-secondary: #111a26;
+  --cp-surface: #1a2432;
+  --cp-line: #2e3f58;
+  --cp-text-main: #e8f0ff;
+  --cp-text-sub: #9db2cd;
+  --cp-accent-cyan: #4ed0ff;
+  --cp-accent-gold: #f0c768;
+  --cp-accent-purple: #8d7bff;
+  --cp-accent-red: #ff7a59;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  background:
+    radial-gradient(circle at 18% 12%, rgba(78, 208, 255, 0.18), transparent 36%),
+    radial-gradient(circle at 78% 10%, rgba(240, 199, 104, 0.16), transparent 34%),
+    linear-gradient(180deg, #0b111a 0%, #090f16 100%);
+  color: var(--cp-text-main);
+}
+
+body {
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+.cp-energy-border {
+  border: 1px solid rgba(78, 208, 255, 0.4);
+  box-shadow: 0 0 18px rgba(78, 208, 255, 0.2);
+}
